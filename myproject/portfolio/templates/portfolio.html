@@ -1,0 +1,19 @@
+{%extends "base.html"%}
+{% load static %}
+{% block title %}My portfolio{% endblock title %}
+{% block content %}
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="{% static 'image/profile.png' %}" class="rounded-circle" alt="Profile" width="150">
+            </div>
+            <div class="col-md-8">
+                <h1>My portfolio</h1>
+                <p>Базовый пайтон</p>
+                <p>Базовый html,css</p>
+                <p>Умею играть футбол</p>
+                <p>я в 10 классе</p>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
